@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: josefin sans;
+  width: 90vw;
+  margin: 0 auto;
+
+  background-color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+hr {
+  color: #040492;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: 0.1rem solid #040492;
+  background-color: #040492;
+  color: #fff;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  width: 100%;
+}
+header {
+  background-color: white;
+  height: 2rem;
+  width: 100%;
+}
+/* LOGO SYLES */
+.logo {
+  width: 6.9rem;
+}
+
+.lgname {
+  margin-bottom: 0.7rem;
+  position: relative;
+  bottom: 0.5rem;
+  font-weight: 700;
+  color: #040492;
+}
+/* Navlink styles */
+nav {
+  /* line-height: 1; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  right: 0;
+  padding-top: 1rem;
+  align-items: center;
+  box-shadow: 0px 15px 17px -11px rgba(0, 0, 0, 0.75);
+
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fff;
+}
+ul {
+  gap: 1.5rem;
+}
+.navi {
+  font-size: 1.2rem;
+}
+.login {
+  color: #040492;
+  font-weight: 400;
+  padding: 0.3rem 1rem;
+  align-self: center;
+  border-radius: 2.5rem;
+  border: 1px solid #040492;
+}
+.login:hover {
+  background-color: #040492;
+  color: #fff;
+}
+/* Main DESCRIPTION */
+.caption {
+  width: 100%;
+  height: 90vh;
+}
+.primaryheading {
+  width: 50%;
+  padding-top: 8rem;
+}
+.slogan {
+  width: 65%;
+  font-size: 0.9rem;
+}
+.btn {
+  border: 0.1rem solid #040492;
+  background-color: inherit;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  background-color: #040492;
+  padding: 0.6rem 0.8rem;
+  color: #fff;
+}
+.btn:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+.primaryimage {
+  padding-top: 8rem;
+}
+.brandimages {
+  margin: 0 auto;
+}
+.brand {
+  height: 15rem;
+  width: 10em;
+  /* background-color: #040492; */
+}
+.brandmain {
+  height: 19rem;
+  width: 10em;
+  /* background-color: #040492; */
+}
+.free {
+  margin: 0;
+  width: 12rem;
+}
+.iconimage {
+  gap: 10rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+.demo {
+  text-align: center;
+}
+.demo2 {
+  text-align: center;
+  font-weight: 800;
+}
+h2 {
+  font-size: 1.9rem;
+}
+/* FEATURED BOOKS */
+.section-heading {
+  /* transform: translateX(37%); */
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+.featured {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.books {
+  width: 18vw;
+  background-color: rgb(246, 248, 250);
+  text-align: center;
+  padding-bottom: 0.6rem;
+  box-shadow: -0rem 0rem 0rem 0.1rem rgb(224, 229, 234);
+}
+.bk {
+  width: 15rem;
+}
+.bookname {
+  font-size: 1.4rem;
+  font-weight: 600;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.bkimg {
+  width: 100%;
+  padding-right: 0.8rem;
+}
+.price {
+  text-decoration: line-through;
+  font-weight: 600;
+  color: grey;
+  margin-top: 0.9rem;
+}
+.cart {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.4rem;
+  border: 0.1rem solid #3e3ef5;
+}
+/* Discount styles */
+.discount {
+  width: 100%;
+}
+.discountimage {
+  display: flex;
+  width: 50%;
+  z-index: -1;
+  padding-left: 2rem;
+}
+.disimg {
+  width: 16vw;
+  transform: rotate(345deg);
+  height: 20rem;
+}
+.imgnew {
+  width: 100%;
+}
+.disim {
+  width: 16vw;
+  transform: rotate(15deg);
+  height: 20rem;
+}
+
+.discountprice {
+  padding-top: 4rem;
+  width: 50%;
+}
+.discounttitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #040492;
+  /* text-align: center; */
+}
+.discounttext {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.discountbtn {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+}
+/* New Books */
+.newboks {
+  justify-content: space-evenly;
+  row-gap: 2rem;
+}
+.new {
+  width: 27vw;
+  gap: 2rem;
+
+  padding: 1rem;
+  box-shadow: -0rem 0rem 0rem 0.1rem rgb(224, 229, 234);
+}
+.newimg {
+  width: 9vw;
+}
+.imgnew {
+  width: 100%;
+}
+.newdtls {
+  padding-top: 3rem;
+  line-height: 1.3;
+}
+.rating {
+  color: orange;
+  font-size: 1.7rem;
+}
+/* SUBSCRIBE STYLES */
+.subscribe {
+  width: 100%;
+  margin-top: 2rem;
+  background-image: url(./img/join-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  background-position: center;
+  justify-content: center;
+}
+.sub {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-right: 10rem;
+  text-align: center;
+}
+.mail {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 17rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 0.6rem;
+
+  border: 0.1rem solid white;
+  outline: none;
+}
+.scribe {
+  width: 17rem;
+  font-size: 1rem;
+  padding: 0.6rem 0.6rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border: 0.1rem solid none;
+  font-weight: bold;
+  outline: none;
+}
+/* Customer opinions */
+.thought {
+  justify-content: space-evenly;
+}
+.opinion {
+  width: 25vw;
+  padding: 2rem;
+  box-shadow: 0rem 0rem 0rem 0.1rem rgb(224, 229, 234);
+  text-align: center;
+}
+.optimg {
+  margin: 0 auto;
+  width: 9vw;
+}
+.round {
+  border-radius: 7.5rem;
+}
+/* Footer styles */
+footer {
+  position: absolute;
+  top: 215rem;
+  background-color: #00163f;
+  color: #fff;
+  left: 0;
+  right: 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+.footer {
+  background-color: #00163f;
+  color: #fff;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+}
+.fgo {
+  margin-bottom: 1rem;
+}
+.width {
+  width: 20vw;
+}
+li {
+  margin-bottom: 0.8rem;
+}
+.whit {
+  color: #fff;
+  margin-left: 0.7rem;
+}
+.blk {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
